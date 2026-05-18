@@ -16,6 +16,7 @@ interface ProductCardProps {
 export default function ProductCard({ product, onAddToCart }: ProductCardProps) {
   const [wishlist, setWishlist] = useState(false)
   const [isAdded, setIsAdded] = useState(false)
+  const [imgError, setImgError] = useState(false)
   const { toast } = useToast()
 
   const handleAddToCart = () => {
@@ -46,11 +47,12 @@ export default function ProductCard({ product, onAddToCart }: ProductCardProps) 
         )}
         
         {/* Product Image */}
-        {product.image ? (
+        {product.image && !imgError ? (
           <div className="relative w-full h-full p-4 flex items-center justify-center bg-white">
             <img 
               src={product.image} 
               alt={product.name}
+              onError={() => setImgError(true)}
               className="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-500"
               loading="lazy"
             />
