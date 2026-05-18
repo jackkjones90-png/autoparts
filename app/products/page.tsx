@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import ProductCard from '@/components/product/product-card'
 import ProductFilters, { FilterState } from '@/components/product/product-filters'
@@ -12,7 +12,7 @@ type SortOption = 'relevance' | 'price-low' | 'price-high' | 'rating' | 'newest'
 
 import { useCart } from '@/lib/context/cart-context'
 
-export default function ProductsPage() {
+function ProductsContent() {
   const { addToCart } = useCart()
   const searchParams = useSearchParams()
   const [filters, setFilters] = useState<FilterState>({
@@ -180,5 +180,13 @@ export default function ProductsPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function ProductsPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-background flex items-center justify-center p-8"><div className="text-lg text-muted-foreground">Loading products...</div></div>}>
+      <ProductsContent />
+    </Suspense>
   )
 }
