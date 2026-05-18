@@ -1,0 +1,47 @@
+{
+  "scrapedAt": "2026-05-13T10:51:50.178Z",
+  "totalProducts": 0,
+  "categories": [
+    {
+      "name": "Car Cleaning",
+      "count": 0,
+      "pagesScraped": 1
+    },
+    {
+      "name": "Car Parts",
+      "count": 0,
+      "pagesScraped": 1
+    },
+    {
+      "name": "Oils & Fluids",
+      "count": 0,
+      "pagesScraped": 1
+    },
+    {
+      "name": "Tools",
+      "count": 0,
+      "pagesScraped": 1
+    },
+    {
+      "name": "Bikes",
+      "count": 0,
+      "pagesScraped": 1
+    },
+    {
+      "name": "Cycling Accessories",
+      "count": 0,
+      "pagesScraped": 1
+    },
+    {
+      "name": "Dash Cams",
+      "count": 0,
+      "pagesScraped": 1
+    },
+    {
+      "name": "Sat Nav",
+      "count": 0,
+      "pagesScraped": 1
+    }
+  ],
+  "products": []
+}
