@@ -14,6 +14,7 @@ export default function CheckoutPage() {
   const { toast } = useToast()
   const router = useRouter()
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isFailed, setIsFailed] = useState(false)
 
   const handlePlaceOrder = (e: React.FormEvent) => {
     e.preventDefault()
@@ -22,6 +23,7 @@ export default function CheckoutPage() {
     // Simulate API delay
     setTimeout(() => {
       setIsSubmitting(false)
+      setIsFailed(true)
       toast({
         title: "Order Failed",
         description: "We are at full capacity right now and cannot accept new orders. Please try again later.",
@@ -131,12 +133,18 @@ export default function CheckoutPage() {
 
             <Button 
               type="submit" 
-              disabled={isSubmitting}
-              className="w-full mt-8 bg-primary hover:bg-orange-700 text-primary-foreground py-6 text-lg font-bold"
+              disabled={isSubmitting || isFailed}
+              className={`w-full mt-8 py-6 font-bold h-auto min-h-[60px] ${
+                isFailed ? 'bg-destructive hover:bg-destructive text-destructive-foreground text-sm' : 'bg-primary hover:bg-orange-700 text-primary-foreground text-lg'
+              }`}
             >
               {isSubmitting ? (
                 <span className="flex items-center gap-2">
                    Processing...
+                </span>
+              ) : isFailed ? (
+                <span className="flex items-center justify-center gap-2 px-2 text-center leading-tight">
+                   We are at full capacity. Not taking new orders.
                 </span>
               ) : (
                 <span className="flex items-center gap-2">
