@@ -7,10 +7,11 @@ import { useCart } from '@/lib/context/cart-context'
 import { useToast } from '@/components/ui/use-toast'
 import { ShoppingCart, ArrowLeft, Star, ShieldCheck, Truck, Clock } from 'lucide-react'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, use } from 'react'
 
-export default function ProductDetailPage({ params }: { params: { id: string } }) {
-  const product = products.find(p => p.id === params.id)
+export default function ProductDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const resolvedParams = use(params)
+  const product = products.find(p => p.id === resolvedParams.id)
   const { addToCart } = useCart()
   const { toast } = useToast()
   const [isAdded, setIsAdded] = useState(false)
