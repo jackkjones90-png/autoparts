@@ -68,25 +68,25 @@ export default function ProductFilters({
   }
 
   const handleCategoryChange = (category: string) => {
-    const newFilters = { ...filters, category }
+    const newFilters: FilterState = { ...filters, category }
     setFilters(newFilters)
     onFilterChange(newFilters)
   }
 
   const handlePriceChange = (min: number, max: number) => {
-    const newFilters = { ...filters, priceRange: [min, max] }
+    const newFilters: FilterState = { ...filters, priceRange: [min, max] }
     setFilters(newFilters)
     onFilterChange(newFilters)
   }
 
   const handleRatingChange = (rating: number) => {
-    const newFilters = { ...filters, rating }
+    const newFilters: FilterState = { ...filters, rating }
     setFilters(newFilters)
     onFilterChange(newFilters)
   }
 
   const handleStockChange = () => {
-    const newFilters = { ...filters, inStock: !filters.inStock }
+    const newFilters: FilterState = { ...filters, inStock: !filters.inStock }
     setFilters(newFilters)
     onFilterChange(newFilters)
   }
