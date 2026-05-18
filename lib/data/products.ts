@@ -25,7 +25,7 @@ export const products: Product[] = [
     "category": "wiper-blades",
     "subcategory": "flat-blades-bl12",
     "description": "18inch -450mm Pro Series Hybrid wiper ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 17
   },
   {
@@ -39,7 +39,7 @@ export const products: Product[] = [
     "category": "wiper-blades",
     "subcategory": "flat-blades-bl12",
     "description": "20inch -500mm Pro Series Hybrid wiper ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 20
   },
   {
@@ -53,7 +53,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "brake-fittings-bb02",
     "description": "Assorted Brake Pipe Fittings & Brake B...",
-    "inStock": false,
+    "inStock": true,
     "discount": 20
   },
   {
@@ -67,7 +67,7 @@ export const products: Product[] = [
     "category": "abrasives",
     "subcategory": "emery-paper-cc02",
     "description": "100 Grit Emery Blue Twill Roll (25mm x...",
-    "inStock": false,
+    "inStock": true,
     "discount": 21
   },
   {
@@ -81,7 +81,7 @@ export const products: Product[] = [
     "category": "wheel-accessories",
     "subcategory": "locking-wheel-bolt-sets-be14",
     "description": "Locking Wheel Bolt Set : 23mm - M12 x ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 23
   },
   {
@@ -95,7 +95,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "couplings-bb04",
     "description": "Assorted Push-Fit Tube Couplings - Imp...",
-    "inStock": false,
+    "inStock": true,
     "discount": 10
   },
   {
@@ -109,7 +109,7 @@ export const products: Product[] = [
     "category": "automotive-lighting",
     "subcategory": "12v-auxiliary-bulbs-ce02",
     "description": "BA15S Amber Bulb - 343 (X10)",
-    "inStock": false,
+    "inStock": true,
     "discount": 23
   },
   {
@@ -123,7 +123,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "empty-boxes-bb13",
     "description": "Empty Boxes & Dividers",
-    "inStock": false,
+    "inStock": true,
     "discount": 22
   },
   {
@@ -137,7 +137,7 @@ export const products: Product[] = [
     "category": "wheel-accessories",
     "subcategory": "locking-wheel-bolt-sets-be14",
     "description": "Locking Wheel Bolt Set : 26mm - M12 x ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 27
   },
   {
@@ -151,7 +151,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "adhesives-ba01",
     "description": "Gemlok Industrial Super Glue",
-    "inStock": false,
+    "inStock": true,
     "discount": 25
   },
   {
@@ -165,7 +165,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "circlips-pins-rivets-bb03",
     "description": "Assorted Rivets",
-    "inStock": false,
+    "inStock": true,
     "discount": 10
   },
   {
@@ -179,7 +179,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "adhesives-ba01",
     "description": "Gemlok Industrial Super Glue",
-    "inStock": false,
+    "inStock": true,
     "discount": 10
   },
   {
@@ -193,7 +193,7 @@ export const products: Product[] = [
     "category": "wiper-blades",
     "subcategory": "flat-blades-bl12",
     "description": "18inch -450mm Pro Series Hybrid wiper ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 16
   },
   {
@@ -207,7 +207,7 @@ export const products: Product[] = [
     "category": "abrasives",
     "subcategory": "emery-paper-cc02",
     "description": "80 Grit Emery Blue Twill Roll (25mm x ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 12
   },
   {
@@ -221,7 +221,7 @@ export const products: Product[] = [
     "category": "wiper-blades",
     "subcategory": "flat-blades-bl12",
     "description": "18inch -450mm Pro Series Hybrid wiper ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 27
   },
   {
@@ -235,7 +235,7 @@ export const products: Product[] = [
     "category": "wiper-blades",
     "subcategory": "flat-blades-bl12",
     "description": "18inch -450mm Pro Series Hybrid wiper ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 29
   },
   {
@@ -249,7 +249,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "empty-boxes-bb13",
     "description": "Empty Boxes & Dividers",
-    "inStock": false,
+    "inStock": true,
     "discount": 15
   },
   {
@@ -263,7 +263,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "tapes-general-purpose-ba06",
     "description": "Brown Packing Tape - 50mm x 66m",
-    "inStock": false,
+    "inStock": true,
     "discount": 28
   },
   {
@@ -277,7 +277,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "circlips-pins-rivets-bb03",
     "description": "Assorted \"R\" Clips",
-    "inStock": false,
+    "inStock": true,
     "discount": 24
   },
   {
@@ -291,7 +291,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "tapes-insulation-ba05",
     "description": "19mm x 20m PVC Tape - Blue",
-    "inStock": false,
+    "inStock": true,
     "discount": 23
   },
   {
@@ -305,7 +305,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "tapes-insulation-ba05",
     "description": "19mm x 20m PVC Tape - White",
-    "inStock": false,
+    "inStock": true,
     "discount": 12
   },
   {
@@ -319,7 +319,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "adhesives-ba01",
     "description": "Spray Adhesive",
-    "inStock": false,
+    "inStock": true,
     "discount": 25
   },
   {
@@ -333,7 +333,7 @@ export const products: Product[] = [
     "category": "wheel-accessories",
     "subcategory": "locking-wheel-bolt-sets-be14",
     "description": "Locking Wheel Bolt Set : 23mm - M12 x ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 20
   },
   {
@@ -347,7 +347,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "circlips-pins-rivets-bb03",
     "description": "Assorted Spring Roll Pins - Metric",
-    "inStock": false,
+    "inStock": true,
     "discount": 17
   },
   {
@@ -361,7 +361,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "double-sided-tape-ca02",
     "description": "Double Sided Trim Tape - 12mm x 5m",
-    "inStock": false,
+    "inStock": true,
     "discount": 14
   },
   {
@@ -375,7 +375,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "adhesives-ba01",
     "description": "Gemlok Metal Fit",
-    "inStock": false,
+    "inStock": true,
     "discount": 19
   },
   {
@@ -389,7 +389,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "circlips-pins-rivets-bb03",
     "description": "Assorted Split Cotter Pins - Small",
-    "inStock": false,
+    "inStock": true,
     "discount": 21
   },
   {
@@ -403,7 +403,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "circlips-pins-rivets-bb03",
     "description": "Assorted Split Cotter Pins - Large",
-    "inStock": false,
+    "inStock": true,
     "discount": 12
   },
   {
@@ -417,7 +417,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "tapes-general-purpose-ba06",
     "description": "Blue Vinyl Tape - 38mm x 66m",
-    "inStock": false,
+    "inStock": true,
     "discount": 25
   },
   {
@@ -431,7 +431,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "electrical-bb05",
     "description": "Assorted Insulated Terminals - Red",
-    "inStock": false,
+    "inStock": true,
     "discount": 29
   },
   {
@@ -445,7 +445,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "sealants-ba03",
     "description": "Gemlok Pipe Sealant",
-    "inStock": false,
+    "inStock": true,
     "discount": 24
   },
   {
@@ -459,7 +459,7 @@ export const products: Product[] = [
     "category": "automotive-lighting",
     "subcategory": "12v-auxiliary-bulbs-ce02",
     "description": "Rear Indicator / Side Repeater - 501A ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 19
   },
   {
@@ -473,7 +473,7 @@ export const products: Product[] = [
     "category": "abrasives",
     "subcategory": "emery-paper-cc02",
     "description": "80 Grit Emery Blue Twill Roll (25mm x ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 17
   },
   {
@@ -487,7 +487,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "exhaust-sealants-bandages-ba02",
     "description": "Exhaust Jointing Paste (Tube)",
-    "inStock": false,
+    "inStock": true,
     "discount": 21
   },
   {
@@ -501,7 +501,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "tapes-insulation-ba05",
     "description": "19mm x 20m PVC Tape - Blue",
-    "inStock": false,
+    "inStock": true,
     "discount": 29
   },
   {
@@ -515,7 +515,7 @@ export const products: Product[] = [
     "category": "wiper-blades",
     "subcategory": "flat-blades-bl12",
     "description": "19inch -475mm Pro Series Hybrid wiper ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 15
   },
   {
@@ -529,7 +529,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "exhaust-sealants-bandages-ba02",
     "description": "Exhaust Jointing Paste (Cartridge)",
-    "inStock": false,
+    "inStock": true,
     "discount": 20
   },
   {
@@ -543,7 +543,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "tapes-general-purpose-ba06",
     "description": "Blue Vinyl Tape - 38mm x 66m",
-    "inStock": false,
+    "inStock": true,
     "discount": 15
   },
   {
@@ -557,7 +557,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "exhaust-sealants-bandages-ba02",
     "description": "Exhaust Jointing Paste (Tube)",
-    "inStock": false,
+    "inStock": true,
     "discount": 17
   },
   {
@@ -571,7 +571,7 @@ export const products: Product[] = [
     "category": "automotive-lighting",
     "subcategory": "12v-auxiliary-bulbs-ce02",
     "description": "Brake / Tail Lamp - 380 (X10)",
-    "inStock": false,
+    "inStock": true,
     "discount": 27
   },
   {
@@ -585,7 +585,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "electrical-bb05",
     "description": "Assorted Blanking & Wiring Grommets",
-    "inStock": false,
+    "inStock": true,
     "discount": 29
   },
   {
@@ -599,7 +599,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "adhesives-ba01",
     "description": "Gemlok Clear Rapid Epoxy",
-    "inStock": false,
+    "inStock": true,
     "discount": 22
   },
   {
@@ -613,7 +613,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "brake-fittings-bb02",
     "description": "Assorted Grease Nipples",
-    "inStock": false,
+    "inStock": true,
     "discount": 18
   },
   {
@@ -627,7 +627,7 @@ export const products: Product[] = [
     "category": "abrasives",
     "subcategory": "emery-paper-cc02",
     "description": "100 Grit Emery Blue Twill Sheets",
-    "inStock": false,
+    "inStock": true,
     "discount": 15
   },
   {
@@ -641,7 +641,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "circlips-pins-rivets-bb03",
     "description": "Assorted \"R\" Clips",
-    "inStock": false,
+    "inStock": true,
     "discount": 25
   },
   {
@@ -655,7 +655,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "adhesives-ba01",
     "description": "Gemlok Anaerobic Retainer",
-    "inStock": false,
+    "inStock": true,
     "discount": 29
   },
   {
@@ -669,7 +669,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "body-trim-clips-bb15",
     "description": "340pc Assorted Fir Tree Fixings Genera...",
-    "inStock": false,
+    "inStock": true,
     "discount": 14
   },
   {
@@ -683,7 +683,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "tapes-insulation-ba05",
     "description": "19mm x 20m PVC Tape - Blue",
-    "inStock": false,
+    "inStock": true,
     "discount": 20
   },
   {
@@ -697,7 +697,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "exhaust-sealants-bandages-ba02",
     "description": "Exhaust Jointing Paste (Tube)",
-    "inStock": false,
+    "inStock": true,
     "discount": 16
   },
   {
@@ -711,7 +711,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "tapes-insulation-ba05",
     "description": "19mm x 20m PVC Tape - Blue",
-    "inStock": false,
+    "inStock": true,
     "discount": 27
   },
   {
@@ -725,7 +725,7 @@ export const products: Product[] = [
     "category": "automotive-lighting",
     "subcategory": "12v-auxiliary-bulbs-ce02",
     "description": "Side / Number Plate Lamp - 501 (X10)",
-    "inStock": false,
+    "inStock": true,
     "discount": 10
   },
   {
@@ -739,7 +739,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "body-trim-clips-bb15",
     "description": "350pc Plastic Locking Nut Assortment",
-    "inStock": false,
+    "inStock": true,
     "discount": 15
   },
   {
@@ -753,7 +753,7 @@ export const products: Product[] = [
     "category": "abrasives",
     "subcategory": "wet-dry-cc03",
     "description": "180 Grit Wet & Dry Abrasive Paper",
-    "inStock": false,
+    "inStock": true,
     "discount": 27
   },
   {
@@ -767,7 +767,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "tapes-general-purpose-ba06",
     "description": "Blue Vinyl Tape - 38mm x 66m",
-    "inStock": false,
+    "inStock": true,
     "discount": 15
   },
   {
@@ -781,7 +781,7 @@ export const products: Product[] = [
     "category": "wiper-blades",
     "subcategory": "flat-blades-bl12",
     "description": "15inch -375mm Pro Series Hybrid wiper ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 11
   },
   {
@@ -795,7 +795,7 @@ export const products: Product[] = [
     "category": "automotive-lighting",
     "subcategory": "12v-auxiliary-bulbs-ce02",
     "description": "BA15S Amber Bulb - 343 (X10)",
-    "inStock": false,
+    "inStock": true,
     "discount": 13
   },
   {
@@ -809,7 +809,7 @@ export const products: Product[] = [
     "category": "wheel-accessories",
     "subcategory": "locking-wheel-bolt-sets-be14",
     "description": "Locking Wheel Bolt Set : 23mm - M12 x ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 22
   },
   {
@@ -823,7 +823,7 @@ export const products: Product[] = [
     "category": "abrasives",
     "subcategory": "wet-dry-cc03",
     "description": "180 Grit Wet & Dry Abrasive Paper",
-    "inStock": false,
+    "inStock": true,
     "discount": 15
   },
   {
@@ -837,7 +837,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "tapes-general-purpose-ba06",
     "description": "Black Duct Tape - 50mm x 50m",
-    "inStock": false,
+    "inStock": true,
     "discount": 13
   },
   {
@@ -851,7 +851,7 @@ export const products: Product[] = [
     "category": "abrasives",
     "subcategory": "wet-dry-cc03",
     "description": "600 Grit Wet & Dry Abrasive Paper",
-    "inStock": false,
+    "inStock": true,
     "discount": 12
   },
   {
@@ -865,7 +865,7 @@ export const products: Product[] = [
     "category": "wiper-blades",
     "subcategory": "flat-blades-bl12",
     "description": "24inch -600mm Pro Series Hybrid wiper ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 18
   },
   {
@@ -879,7 +879,7 @@ export const products: Product[] = [
     "category": "automotive-lighting",
     "subcategory": "12v-auxiliary-bulbs-ce02",
     "description": "BA15S Amber Bulb - 343 (X10)",
-    "inStock": false,
+    "inStock": true,
     "discount": 11
   },
   {
@@ -893,7 +893,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "circlips-pins-rivets-bb03",
     "description": "Assorted Clevis Pins",
-    "inStock": false,
+    "inStock": true,
     "discount": 26
   },
   {
@@ -907,7 +907,7 @@ export const products: Product[] = [
     "category": "wiper-blades",
     "subcategory": "flat-blades-bl12",
     "description": "17inch -425mm Pro Series Hybrid wiper ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 15
   },
   {
@@ -921,7 +921,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "electrical-bb05",
     "description": "Assorted Blanking & Wiring Grommets",
-    "inStock": false,
+    "inStock": true,
     "discount": 20
   },
   {
@@ -935,7 +935,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "tapes-general-purpose-ba06",
     "description": "Blue Vinyl Tape - 38mm x 66m",
-    "inStock": false,
+    "inStock": true,
     "discount": 10
   },
   {
@@ -949,7 +949,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "circlips-pins-rivets-bb03",
     "description": "Assorted Expansion Springs",
-    "inStock": false,
+    "inStock": true,
     "discount": 15
   },
   {
@@ -963,7 +963,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "body-trim-clips-bb15",
     "description": "340pc Assorted Fir Tree Fixings Genera...",
-    "inStock": false,
+    "inStock": true,
     "discount": 23
   },
   {
@@ -977,7 +977,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "electrical-bb05",
     "description": "Assorted Heat Shrink Terminals",
-    "inStock": false,
+    "inStock": true,
     "discount": 15
   },
   {
@@ -991,7 +991,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "body-trim-clips-bb15",
     "description": "340pc Assorted Fir Tree Fixings Genera...",
-    "inStock": false,
+    "inStock": true,
     "discount": 24
   },
   {
@@ -1005,7 +1005,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "adhesives-ba01",
     "description": "Gemlok Industrial Super Glue",
-    "inStock": false,
+    "inStock": true,
     "discount": 29
   },
   {
@@ -1019,7 +1019,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "adhesives-ba01",
     "description": "Gemlok Nutlock",
-    "inStock": false,
+    "inStock": true,
     "discount": 21
   },
   {
@@ -1033,7 +1033,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "exhaust-sealants-bandages-ba02",
     "description": "Exhaust Jointing Paste (Cartridge) & C...",
-    "inStock": false,
+    "inStock": true,
     "discount": 24
   },
   {
@@ -1047,7 +1047,7 @@ export const products: Product[] = [
     "category": "automotive-lighting",
     "subcategory": "12v-auxiliary-bulbs-ce02",
     "description": "Indicator Lamp - 581 (X10)",
-    "inStock": false,
+    "inStock": true,
     "discount": 13
   },
   {
@@ -1061,7 +1061,7 @@ export const products: Product[] = [
     "category": "abrasives",
     "subcategory": "emery-paper-cc02",
     "description": "80 Grit Emery Blue Twill Roll (25mm x ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 20
   },
   {
@@ -1075,7 +1075,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "tapes-insulation-ba05",
     "description": "19mm x 20m PVC Tape - Green",
-    "inStock": false,
+    "inStock": true,
     "discount": 11
   },
   {
@@ -1089,7 +1089,7 @@ export const products: Product[] = [
     "category": "automotive-lighting",
     "subcategory": "12v-auxiliary-bulbs-ce02",
     "description": "BA15S Amber Bulb - 343 (X10)",
-    "inStock": false,
+    "inStock": true,
     "discount": 19
   },
   {
@@ -1103,7 +1103,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "circlips-pins-rivets-bb03",
     "description": "Assorted E-Retainer Clips",
-    "inStock": false,
+    "inStock": true,
     "discount": 22
   },
   {
@@ -1117,7 +1117,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "adhesives-ba01",
     "description": "Gemlok Industrial Super Glue",
-    "inStock": false,
+    "inStock": true,
     "discount": 17
   },
   {
@@ -1131,7 +1131,7 @@ export const products: Product[] = [
     "category": "wiper-blades",
     "subcategory": "flat-blades-bl12",
     "description": "14inch -350mm Pro Series Hybrid wiper ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 22
   },
   {
@@ -1145,7 +1145,7 @@ export const products: Product[] = [
     "category": "automotive-lighting",
     "subcategory": "12v-auxiliary-bulbs-ce02",
     "description": "Indicator / Rear Fog / Reverse / 3rd B...",
-    "inStock": false,
+    "inStock": true,
     "discount": 26
   },
   {
@@ -1159,7 +1159,7 @@ export const products: Product[] = [
     "category": "automotive-lighting",
     "subcategory": "12v-auxiliary-bulbs-ce02",
     "description": "Instrument Panel Lamp - 286 (X10)",
-    "inStock": false,
+    "inStock": true,
     "discount": 14
   },
   {
@@ -1173,7 +1173,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "tapes-insulation-ba05",
     "description": "19mm x 20m PVC Tape - Black",
-    "inStock": false,
+    "inStock": true,
     "discount": 24
   },
   {
@@ -1187,7 +1187,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "brake-fittings-bb02",
     "description": "Assorted Grease Nipples",
-    "inStock": false,
+    "inStock": true,
     "discount": 20
   },
   {
@@ -1201,7 +1201,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "circlips-pins-rivets-bb03",
     "description": "Assorted E-Retainer Clips - Metric",
-    "inStock": false,
+    "inStock": true,
     "discount": 27
   },
   {
@@ -1215,7 +1215,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "double-sided-tape-ca02",
     "description": "Double Sided Trim Tape - 12mm x 5m",
-    "inStock": false,
+    "inStock": true,
     "discount": 11
   },
   {
@@ -1229,7 +1229,7 @@ export const products: Product[] = [
     "category": "abrasives",
     "subcategory": "wet-dry-cc03",
     "description": "180 Grit Wet & Dry Abrasive Paper",
-    "inStock": false,
+    "inStock": true,
     "discount": 14
   },
   {
@@ -1243,7 +1243,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "electrical-bb05",
     "description": "Assorted Heat Shrink Tubing",
-    "inStock": false,
+    "inStock": true,
     "discount": 17
   },
   {
@@ -1257,7 +1257,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "circlips-pins-rivets-bb03",
     "description": "Assorted \"R\" Clips",
-    "inStock": false,
+    "inStock": true,
     "discount": 22
   },
   {
@@ -1271,7 +1271,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "circlips-pins-rivets-bb03",
     "description": "Assorted \"R\" Clips",
-    "inStock": false,
+    "inStock": true,
     "discount": 23
   },
   {
@@ -1285,7 +1285,7 @@ export const products: Product[] = [
     "category": "abrasives",
     "subcategory": "wet-dry-cc03",
     "description": "180 Grit Wet & Dry Abrasive Paper",
-    "inStock": false,
+    "inStock": true,
     "discount": 16
   },
   {
@@ -1299,7 +1299,7 @@ export const products: Product[] = [
     "category": "tapes-wraps",
     "subcategory": "double-sided-tape-ca02",
     "description": "Double Sided Trim Tape - 12mm x 5m",
-    "inStock": false,
+    "inStock": true,
     "discount": 17
   },
   {
@@ -1313,7 +1313,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "electrical-bb05",
     "description": "Assorted Insulated Terminals - Blue",
-    "inStock": false,
+    "inStock": true,
     "discount": 12
   },
   {
@@ -1327,7 +1327,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "exhaust-sealants-bandages-ba02",
     "description": "47? x 1.1/2? - With Heat Foil & Wire",
-    "inStock": false,
+    "inStock": true,
     "discount": 26
   },
   {
@@ -1341,7 +1341,7 @@ export const products: Product[] = [
     "category": "automotive-lighting",
     "subcategory": "12v-auxiliary-bulbs-ce02",
     "description": "Brake / Rear Fog / Tail Lamp - 566 (X1...",
-    "inStock": false,
+    "inStock": true,
     "discount": 10
   },
   {
@@ -1355,7 +1355,7 @@ export const products: Product[] = [
     "category": "abrasives",
     "subcategory": "emery-paper-cc02",
     "description": "80 Grit Emery Blue Twill Roll (25mm x ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 19
   },
   {
@@ -1369,7 +1369,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "sealants-ba03",
     "description": "Gemlok Pipe Sealant",
-    "inStock": false,
+    "inStock": true,
     "discount": 24
   },
   {
@@ -1383,7 +1383,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "electrical-bb05",
     "description": "Assorted Blanking & Wiring Grommets",
-    "inStock": false,
+    "inStock": true,
     "discount": 24
   },
   {
@@ -1397,7 +1397,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "circlips-pins-rivets-bb03",
     "description": "Assorted Circlips - Popular Internal &...",
-    "inStock": false,
+    "inStock": true,
     "discount": 22
   },
   {
@@ -1411,7 +1411,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "exhaust-sealants-bandages-ba02",
     "description": "Exhaust Jointing Paste (Tube)",
-    "inStock": false,
+    "inStock": true,
     "discount": 11
   },
   {
@@ -1425,7 +1425,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "air-conditioning-bb01",
     "description": "Valve Core & Cap Service Kit",
-    "inStock": false,
+    "inStock": true,
     "discount": 19
   },
   {
@@ -1439,7 +1439,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "empty-boxes-bb13",
     "description": "Empty Boxes & Dividers",
-    "inStock": false,
+    "inStock": true,
     "discount": 20
   },
   {
@@ -1453,7 +1453,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "brake-fittings-bb02",
     "description": "Assorted Grease Nipples",
-    "inStock": false,
+    "inStock": true,
     "discount": 25
   },
   {
@@ -1467,7 +1467,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "electrical-bb05",
     "description": "Assorted Blanking & Wiring Grommets",
-    "inStock": false,
+    "inStock": true,
     "discount": 25
   },
   {
@@ -1481,7 +1481,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "circlips-pins-rivets-bb03",
     "description": "Assorted Compression Springs",
-    "inStock": false,
+    "inStock": true,
     "discount": 22
   },
   {
@@ -1495,7 +1495,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "empty-boxes-bb13",
     "description": "Empty Boxes & Dividers",
-    "inStock": false,
+    "inStock": true,
     "discount": 29
   },
   {
@@ -1509,7 +1509,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "brake-fittings-bb02",
     "description": "Assorted Grease Nipples",
-    "inStock": false,
+    "inStock": true,
     "discount": 13
   },
   {
@@ -1523,7 +1523,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "sealants-ba03",
     "description": "Gemlok Pipe Sealant",
-    "inStock": false,
+    "inStock": true,
     "discount": 29
   },
   {
@@ -1537,7 +1537,7 @@ export const products: Product[] = [
     "category": "wheel-accessories",
     "subcategory": "locking-wheel-bolt-sets-be14",
     "description": "Locking Wheel Bolt Set : 23mm - M12 x ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 28
   },
   {
@@ -1551,7 +1551,7 @@ export const products: Product[] = [
     "category": "wiper-blades",
     "subcategory": "flat-blades-bl12",
     "description": "22inch -550mm Pro Series Hybrid wiper ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 24
   },
   {
@@ -1565,7 +1565,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "sealants-ba03",
     "description": "Gemlok Pipe Sealant",
-    "inStock": false,
+    "inStock": true,
     "discount": 25
   },
   {
@@ -1579,7 +1579,7 @@ export const products: Product[] = [
     "category": "automotive-lighting",
     "subcategory": "12v-auxiliary-bulbs-ce02",
     "description": "3rd Brake / Number Plate Lamp - 239 (X...",
-    "inStock": false,
+    "inStock": true,
     "discount": 22
   },
   {
@@ -1593,7 +1593,7 @@ export const products: Product[] = [
     "category": "wiper-blades",
     "subcategory": "flat-blades-bl12",
     "description": "16inch -400mm Pro Series Hybrid wiper ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 12
   },
   {
@@ -1607,7 +1607,7 @@ export const products: Product[] = [
     "category": "storage-solutions",
     "subcategory": "body-trim-clips-bb15",
     "description": "340pc Assorted Fir Tree Fixings Genera...",
-    "inStock": false,
+    "inStock": true,
     "discount": 15
   },
   {
@@ -1621,7 +1621,7 @@ export const products: Product[] = [
     "category": "adhesives-sealants",
     "subcategory": "adhesives-ba01",
     "description": "Gemlok Industrial Super Glue",
-    "inStock": false,
+    "inStock": true,
     "discount": 21
   },
   {
@@ -1635,7 +1635,7 @@ export const products: Product[] = [
     "category": "wiper-blades",
     "subcategory": "flat-blades-bl12",
     "description": "21inch -530mm Pro Series Hybrid wiper ...",
-    "inStock": false,
+    "inStock": true,
     "discount": 24
   }
 ]

@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 import { Heart, ShoppingCart, Star, Battery, Camera, Wrench, Hammer, Bike, Package, Layers, Droplets, Box, Car } from 'lucide-react'
 import { useToast } from '@/components/ui/use-toast'
 import { Product } from '@/lib/data/products'
@@ -47,32 +48,34 @@ export default function ProductCard({ product, onAddToCart }: ProductCardProps) 
         )}
         
         {/* Product Image */}
-        {product.image && !imgError ? (
-          <div className="relative w-full h-full p-4 flex items-center justify-center bg-white">
-            <img 
-              src={product.image} 
-              alt={product.name}
-              onError={() => setImgError(true)}
-              className="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-500"
-              loading="lazy"
-            />
-          </div>
-        ) : (
-          /* Placeholder Product Image Icon */
-          <div className="w-full h-full flex items-center justify-center text-primary/20 group-hover:scale-110 transition-transform group-hover:text-primary/40 duration-500">
-            {product.category === 'batteries' && <Battery size={80} strokeWidth={1} />}
-            {product.category === 'dash-cams' && <Camera size={80} strokeWidth={1} />}
-            {product.category === 'car-parts' && <Wrench size={80} strokeWidth={1} />}
-            {product.category === 'tools' && <Hammer size={80} strokeWidth={1} />}
-            {product.category === 'bikes' && <Bike size={80} strokeWidth={1} />}
-            {product.category === 'accessories' && <Package size={80} strokeWidth={1} />}
-            {product.category === 'abrasives' && <Layers size={80} strokeWidth={1} />}
-            {product.category === 'adhesives-sealants' && <Droplets size={80} strokeWidth={1} />}
-            {product.category === 'storage-solutions' && <Box size={80} strokeWidth={1} />}
-            {product.category === 'automotive-parts' && <Car size={80} strokeWidth={1} />}
-            {!product.category && <Package size={80} strokeWidth={1} />}
-          </div>
-        )}
+        <Link href={`/products/${product.id}`} className="absolute inset-0 z-0">
+          {product.image && !imgError ? (
+            <div className="relative w-full h-full p-4 flex items-center justify-center bg-white">
+              <img 
+                src={product.image} 
+                alt={product.name}
+                onError={() => setImgError(true)}
+                className="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-500"
+                loading="lazy"
+              />
+            </div>
+          ) : (
+            /* Placeholder Product Image Icon */
+            <div className="w-full h-full flex items-center justify-center text-primary/20 group-hover:scale-110 transition-transform group-hover:text-primary/40 duration-500">
+              {product.category === 'batteries' && <Battery size={80} strokeWidth={1} />}
+              {product.category === 'dash-cams' && <Camera size={80} strokeWidth={1} />}
+              {product.category === 'car-parts' && <Wrench size={80} strokeWidth={1} />}
+              {product.category === 'tools' && <Hammer size={80} strokeWidth={1} />}
+              {product.category === 'bikes' && <Bike size={80} strokeWidth={1} />}
+              {product.category === 'accessories' && <Package size={80} strokeWidth={1} />}
+              {product.category === 'abrasives' && <Layers size={80} strokeWidth={1} />}
+              {product.category === 'adhesives-sealants' && <Droplets size={80} strokeWidth={1} />}
+              {product.category === 'storage-solutions' && <Box size={80} strokeWidth={1} />}
+              {product.category === 'automotive-parts' && <Car size={80} strokeWidth={1} />}
+              {!product.category && <Package size={80} strokeWidth={1} />}
+            </div>
+          )}
+        </Link>
 
         {/* Wishlist Button */}
         <button
@@ -91,9 +94,11 @@ export default function ProductCard({ product, onAddToCart }: ProductCardProps) 
         </p>
 
         {/* Product Name */}
-        <h3 className="font-semibold text-foreground line-clamp-2 group-hover:text-primary transition">
-          {product.name}
-        </h3>
+        <Link href={`/products/${product.id}`}>
+          <h3 className="font-semibold text-foreground line-clamp-2 group-hover:text-primary transition">
+            {product.name}
+          </h3>
+        </Link>
 
         {/* Rating */}
         <div className="flex items-center gap-1">
