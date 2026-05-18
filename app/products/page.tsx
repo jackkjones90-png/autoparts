@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo, Suspense } from 'react'
+import { useState, useMemo, useEffect, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import ProductCard from '@/components/product/product-card'
 import ProductFilters, { FilterState } from '@/components/product/product-filters'
@@ -23,6 +23,15 @@ function ProductsContent() {
   })
   const [sort, setSort] = useState<SortOption>('relevance')
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
+
+  // Sync category filter with URL query parameter changes
+  useEffect(() => {
+    const categoryFromUrl = searchParams.get('category') || ''
+    setFilters((prev) => ({
+      ...prev,
+      category: categoryFromUrl,
+    }))
+  }, [searchParams])
 
   const handleAddToCart = (product: Product) => {
     addToCart(product)
