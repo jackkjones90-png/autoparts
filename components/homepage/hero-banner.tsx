@@ -24,8 +24,7 @@ export default function HeroBanner() {
               <Link href="/services">
                 <Button 
                   size="lg" 
-                  variant="outline" 
-                  className="w-full sm:w-auto border-white text-white hover:bg-white hover:text-primary bg-transparent font-bold"
+                  className="w-full sm:w-auto border-2 border-white text-white bg-transparent hover:bg-white hover:text-primary font-bold transition-colors"
                 >
                   View Services
                 </Button>
