@@ -60,19 +60,11 @@ export default function ProductCard({ product, onAddToCart }: ProductCardProps) 
               />
             </div>
           ) : (
-            /* Placeholder Product Image Icon */
-            <div className="w-full h-full flex items-center justify-center text-primary/20 group-hover:scale-110 transition-transform group-hover:text-primary/40 duration-500">
-              {product.category === 'batteries' && <Battery size={80} strokeWidth={1} />}
-              {product.category === 'dash-cams' && <Camera size={80} strokeWidth={1} />}
-              {product.category === 'car-parts' && <Wrench size={80} strokeWidth={1} />}
-              {product.category === 'tools' && <Hammer size={80} strokeWidth={1} />}
-              {product.category === 'bikes' && <Bike size={80} strokeWidth={1} />}
-              {product.category === 'accessories' && <Package size={80} strokeWidth={1} />}
-              {product.category === 'abrasives' && <Layers size={80} strokeWidth={1} />}
-              {product.category === 'adhesives-sealants' && <Droplets size={80} strokeWidth={1} />}
-              {product.category === 'storage-solutions' && <Box size={80} strokeWidth={1} />}
-              {product.category === 'automotive-parts' && <Car size={80} strokeWidth={1} />}
-              {!product.category && <Package size={80} strokeWidth={1} />}
+            /* Text Fallback */
+            <div className="w-full h-full flex items-center justify-center bg-secondary/50 group-hover:bg-secondary transition-colors duration-500">
+              <span className="text-xl font-black text-primary/40 text-center px-4 tracking-wider uppercase">
+                CAR PART SHOP
+              </span>
             </div>
           )}
         </Link>

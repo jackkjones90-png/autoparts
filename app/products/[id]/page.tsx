@@ -14,6 +14,7 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
   const { addToCart } = useCart()
   const { toast } = useToast()
   const [isAdded, setIsAdded] = useState(false)
+  const [imgError, setImgError] = useState(false)
 
   if (!product) {
     notFound()
@@ -43,12 +44,20 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
       <div className="grid md:grid-cols-2 gap-12">
         {/* Images */}
         <div className="bg-white rounded-2xl p-8 flex items-center justify-center border border-border min-h-[400px]">
-          <img 
-            src={product.image || '/placeholder.svg'} 
-            alt={product.name}
-            className="max-w-full max-h-[500px] object-contain"
-            onError={(e) => { e.currentTarget.src = '/placeholder.svg' }}
-          />
+          {!imgError ? (
+            <img 
+              src={product.image || '/placeholder.svg'} 
+              alt={product.name}
+              className="max-w-full max-h-[500px] object-contain"
+              onError={() => setImgError(true)}
+            />
+          ) : (
+            <div className="w-full h-full min-h-[300px] flex items-center justify-center bg-secondary/50 rounded-xl">
+              <span className="text-3xl font-black text-primary/40 text-center px-4 tracking-widest uppercase">
+                CAR PART SHOP
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Details */}
