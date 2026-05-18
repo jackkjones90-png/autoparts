@@ -103,6 +103,7 @@ function ProductsContent() {
             <ProductFilters
               categories={categories.map((cat) => cat.id)}
               onFilterChange={setFilters}
+              activeFilters={filters}
             />
           </div>
 

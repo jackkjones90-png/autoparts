@@ -3,11 +3,12 @@
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { ChevronDown, Star } from 'lucide-react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 interface ProductFiltersProps {
   onFilterChange: (filters: FilterState) => void
   categories: string[]
+  activeFilters: FilterState
 }
 
 export interface FilterState {
@@ -44,19 +45,20 @@ const ratings = [
 export default function ProductFilters({
   onFilterChange,
   categories,
+  activeFilters,
 }: ProductFiltersProps) {
-  const [filters, setFilters] = useState<FilterState>({
-    category: '',
-    priceRange: [0, 10000],
-    rating: 0,
-    inStock: false,
-  })
+  const [filters, setFilters] = useState<FilterState>(activeFilters)
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
     category: true,
     price: true,
     rating: true,
     stock: true,
   })
+
+  // Sync internal state with external activeFilters prop
+  useEffect(() => {
+    setFilters(activeFilters)
+  }, [activeFilters])
 
   const toggleSection = (section: string) => {
     setExpandedSections({
